@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f5f5f5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📱 App for working with calls and SMS"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"
+        android:padding="16dp"
+        android:background="@drawable/rounded_background"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/btn_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📞 Working with calls"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:elevation="2dp" />
+
+    <Button
+        android:id="@+id/btn_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📨 Sending SMS"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:elevation="2dp" />
+
+    <Button
+        android:id="@+id/btn_call_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📋 Call log"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:elevation="2dp" />
+
+    <Button
+        android:id="@+id/btn_sms_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📜 SMS history"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:elevation="2dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ℹ️ This app demonstrates all aspects of working with phone calls and SMS messages in Android"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"
+        android:background="@drawable/info_background"
+        android:elevation="1dp" />
+
+</LinearLayout>
